@@ -1,0 +1,17 @@
+# Keep the Gradle wrapper committed for reproducible builds.
+!gradle-wrapper.jar
+!/gradlew
+!/gradlew.bat
+/.gradle
+**/.gradle/
+**/local.properties
+local.properties
+key.properties
+**/key.properties
+*.keystore
+**/*.keystore
+*.jks
+**/*.jks
+/captures/
+GeneratedPluginRegistrant.java
+.cxx/

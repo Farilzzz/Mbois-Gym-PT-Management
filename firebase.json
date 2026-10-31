@@ -1,0 +1,24 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mbois-gym",
+          "appId": "1:251209530070:android:b6dd5d9a7fc61263ce2777",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mbois-gym",
+          "configurations": {
+            "android": "1:251209530070:android:b6dd5d9a7fc61263ce2777"
+          }
+        }
+      }
+    }
+  }
+}
